@@ -1,0 +1,71 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 200px;
+}
+
+body {
+  background-color: rgb(239, 239, 239);
+}
+
+nav {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  padding-left: 10%;
+}
+
+nav > a {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+  padding-top: 20px;
+  margin: 10px;
+}
+
+section {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+hr {
+  width: 80%;
+  border: 1px solid rgba(96, 96, 96, 0.3);
+  border-radius: 2px;
+}
+
+em {
+    font-size: smaller;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+ul li {
+  text-align: left;
+  list-style-type: disc;
+}
+
+h1,
+h2 {
+  color: rgb(110, 12, 12);
+  margin: 5px;
+}
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+span,
+small {
+  color: rgb(96, 96, 96);
+  margin: 5px;
+}
+h1 {
+  font-size: 30pt;
+}

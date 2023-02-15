@@ -1,0 +1,109 @@
+{
+  "name": "Sergei Ivanov",
+  "title": "Frontend Developer",
+  "location": "Batumi, Georgia",
+  "summary": "JavaScript Developer with a passion for learning and applying new technologies, including React.",
+  "experience": [
+    {
+      "name": "Javascript Game Developer, MYTONA",
+      "years": "Nov 2019 - May 2022",
+      "skills": [
+        "Pixi.js",
+        "Fabric.js",
+        "Anime.js",
+        "JavaScript",
+        "ES6",
+        "Webpack",
+        "Babel",
+        "TexturePacker",
+        "HTML5 Canvas",
+        "Photoshop"
+      ],
+      "resp": [
+        "Developed 100+ playable ads for various ad platforms.",
+        "Implemented different game mechanics for advertisement, such as: Match3, Tiles, Merge, Hidden Object, Puzzles, Colouring etc.",
+        "Worked with spine and framed animations.",
+        "Managed and optimised assets, via Photoshop and asset packers.",
+        "Communicated with artists, producers and motion designers during all stages to maintain the quality of product."
+      ]
+    },
+    {
+      "name": "Frontend Developer, EPAM Systems",
+      "years": "Jul 2019 - Nov 2019",
+      "skills": [
+        "JavaScript ES6",
+        "Webpack",
+        "Babel",
+        "React.js",
+        "HTML",
+        "CSS",
+        "SCSS",
+        "ADA",
+        "Accessibility",
+        "JAWS",
+        "NVDA",
+        "VoiceOver"
+      ],
+      "resp": [
+        "Developed a variety of applications for famous American, Canadian and Europe publishers in e-learning sphere.",
+        "Built landing pages for Textbooks, Created interactive models and services for their students to work with topic in a more engaging way.",
+        "Created a services to allow teachers easily evaluate students results and share materials optimal way.",
+        "Made all these applications accessible for people with disabilities, so they could use them comfortably."
+      ]
+    },
+    {
+      "name": "Frontend Developer, Competentum Group",
+      "years": "Feb 2018 - Jun 2019",
+      "skills": [
+        "JavaScript ES6",
+        "Webpack",
+        "Babel",
+        "React.js",
+        "HTML",
+        "CSS",
+        "SCSS",
+        "ADA",
+        "Accessibility",
+        "JAWS",
+        "NVDA",
+        "VoiceOver"
+      ],
+      "resp": [
+        "Developed a variety of applications for famous American, Canadian and Europe publishers in e-learning sphere.",
+        "Built landing pages for Textbooks, Created interactive models and services for their students to work with topic in a more engaging way.",
+        "Created a services to allow teachers easily evaluate students results and share materials optimal way.",
+        "Made all these applications accessible for people with disabilities, so they could use them comfortably."
+      ]
+    },
+    {
+      "name": "Math algorithms analyst, Competentum Group",
+      "years": "Aug 2016 - Dec 2017",
+      "skills": [
+        "Math",
+        "Mathematical Analysis",
+        "Statistics",
+        "Algebra",
+        "LATEX",
+        "XML",
+        "EXCEL",
+        "Google Spreadsheets"
+      ],
+      "resp": [
+        "Wrote scripts, built and structured math algorithms for content on interactive e-learning platforms, using algebra, geometry, combinatorics, mathematical analysis, statistics and probability and trigonometry."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "Bachelor's degree, Mathematics and Computer Science, Udmurt State University",
+      "years": "2014 - 2018"
+    }
+  ],
+  "certification": [
+    {
+      "title": "JavaScript Algorithms and Data Structures, freeCodeCamp",
+      "link": "https://www.freecodecamp.org/certification/fcc5eb5a5f7-7c2d-4498-87da-8354418c30bc/javascript-algorithms-and-data-structures"
+    }
+  ],
+  "skills": ["Russian language - C2(native)", "English language - B2/C1"]
+}
