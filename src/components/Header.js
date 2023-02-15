@@ -22,6 +22,14 @@ function Header() {
                     <Route path="/home" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route
+                        path="*"
+                        element={
+                            <section>
+                                <h2>404 Page not found</h2>
+                            </section>
+                        }
+                    />
                 </Routes>
             </div>
         </BrowserRouter>
