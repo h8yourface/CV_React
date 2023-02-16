@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import data from '../data/SergeiIvanov.json'
 
 
@@ -18,13 +18,16 @@ function Home() {
             <hr />
             <section>
                 <h2>Experience</h2>
-                {data.experience.map(exp => (
+                {data.experience.map((exp, i) => (
                     <>
                         <h4>{exp.name}</h4>
                         <small>{exp.years}</small>
                         <p><em>{exp.skills.join(', ')}</em></p>
                         <ul>
-                            {exp.resp.map(resp => <li>{resp}</li>)}
+                            {exp.resp.map((resp, j) => {
+                                console.log(resp.split(' ')[0] + i + j)
+                                return <li key={resp.split(' ')[0] + i + j}>{resp}</li>
+                            })}
                         </ul>
                     </>
                 ))}
@@ -55,7 +58,9 @@ function Home() {
             <section>
                 <h2>Additional skills</h2>
                 <ul>
-                    {data.skills.map(skill => <li>{skill}</li>)}
+                    {data.skills.map((skill, i) =>
+                        <li key={skill.split(' ')[0] + i}>{skill}</li>
+                    )}
                 </ul>
             </section>
         </div>

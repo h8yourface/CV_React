@@ -1,6 +1,6 @@
 section {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   padding-left: 10%;
   padding-right: 10%;
